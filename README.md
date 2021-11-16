@@ -18,10 +18,10 @@
 ## Development workflow
 - The **development of Magento 2 components** follows the **minimum criteria necessary** so that it can achieve the goal of delivering a **theme** or **functional module** to your user and/or client.
 - These criteria are listed as follows:
-#### Dependencies declaration via `composer.json`
-#### Component registration using `registration.php`
-#### Component definition via XML components
-#### Publication and distribution of developed components. 
+    #### Dependencies declaration via `composer.json`
+    #### Component registration using `registration.php`
+    #### Component definition via XML components
+    #### Publication and distribution of developed components. 
 ## Integration with Twitter REST API
 - To go a little deeper on the concepts seen so far, we will develop a new module called **Sweet Tweet** integrating with social media.
 - This module will make an integration with the **Application Programming Interface (API)** of Twitter and it will be used to **display tweets** with hastags **#magento2**, **#magentodev** and **#magentolive** in the **visualisation layer** of your Magento 2 instance.
