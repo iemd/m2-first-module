@@ -10,7 +10,7 @@
         <referenceContainer name="content">
             <block class="Packt\SweetTweet\Block\Tweets" template="Packt_SweetTweet::tweets.phtml">
                 <arguments>
-                    <argument name="hashtag"xsi:type="string">
+                    <argument name="hashtag" xsi:type="string">
                         #magento2
                     </argument>
                 </arguments>
