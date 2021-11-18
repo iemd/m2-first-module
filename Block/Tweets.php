@@ -20,10 +20,10 @@ class Tweets extends \Magento\Framework\View\Element\Template {
     }
     private function twitterDevAuth() {
 
-        $this->consumerKey = YOUR_CONSUMER_KEY;
-        $this->consumerSecret = YOUR_CONSUMER_SECRET;
-        $this->accessToken = YOUR_ACCESS_TOKEN;
-        $this->accessTokenSecret = YOUR_ACCESS_TOKEN_SECRET;
+        $this->consumerKey = "T49HH2isOpdpowc3dBhXCHWbA";
+        $this->consumerSecret = "vBSxrrUCf9Z9P8pD6GXDvrzk32YANtxStIeu4U47zf1wBCahOn";
+        $this->accessToken = "1278199565993168897-L4S7ObJZhzZPG9KAo3VWQKb95TGNOV";
+        $this->accessTokenSecret = "rt4VgVoIdufJMG0NuMWcU9sldq8yhPuiwnIJVkY6TXXMt";
         return new TwitterOAuth($this->consumerKey, $this->consumerSecret, $this->accessToken, $this->accessTokenSecret);
 
     }
