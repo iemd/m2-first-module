@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<head>
+    <title>
+        SweetTweet PacktModule
+    </title>
+</head>
+<body>
+    <referenceContainer name="content">
+        <block class="Packt\SweetTweet\Block\Index" template="Packt_SweetTweet::index.phtml">
+            <arguments>
+                <argument name="urlMagento2" xsi:type="url" path="sweettweet/magento2" />
+                <argument name="urlMagentoLive" xsi:type="url" path="sweettweet/magentolive" />
+                <argument name="urlMagentoDev" xsi:type="url" path="sweettweet/magentodev" />
+            </arguments>
+        </block>
+    </referenceContainer>
+</body>
+</page>

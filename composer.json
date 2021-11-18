@@ -1,0 +1,19 @@
+{
+    "name": "packt/sweet-tweet",
+    "description":  "Tweet Magento Module - Packt Publishing",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "abraham/twitteroauth": "^0.6.2"
+    },
+    "autoload" : {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Packt\\SweetTweet": " "
+        }   
+    }
+}

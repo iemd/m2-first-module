@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>
+            SweetTweet #Magento2
+        </title>
+        <css src="Packt_SweetTweet::css/source/module.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Packt\SweetTweet\Block\Tweets" template="Packt_SweetTweet::tweets.phtml">
+                <arguments>
+                    <argument name="hashtag"xsi:type="string">
+                        #magento2
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
